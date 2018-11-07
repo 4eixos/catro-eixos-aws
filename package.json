@@ -1,0 +1,27 @@
+{
+  "name": "catro-eixos-aws",
+  "version": "1.3.0",
+  "description": "Integración de catro-eixos con aws",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prefapp/catro_eixos_aws.git"
+  },
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+<<<<<<< HEAD
+    "aws-sdk": "^2.77.0",
+    "uuid": "^3.3.2"
+=======
+    "aws-sdk": "^2.307.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+>>>>>>> 2ff7971... Agregadas funcionalidades de route53 y SQS
+  }
+}

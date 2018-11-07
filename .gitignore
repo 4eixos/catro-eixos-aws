@@ -1,0 +1,8 @@
+node_modules/
+.de
+data.db
+lib.old
+log/*
+*.swp
+data/
+.de
