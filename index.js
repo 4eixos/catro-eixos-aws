@@ -79,12 +79,11 @@ module.exports = {
         return new MiCF(AWS);
     },
 
-<<<<<<< HEAD
 	IotData: function(extremo){
 		iniciar_aws();
 		return new MiIotData(AWS, extremo);
 
-=======
+	},
 	Route53: function(){
 		iniciar_aws();
 		return new MiRoute53(AWS);
@@ -93,7 +92,6 @@ module.exports = {
 	SQS: function(){
 		iniciar_aws();
 		return new MiSQS(AWS);
->>>>>>> 2ff7971... Agregadas funcionalidades de route53 y SQS
 	},
 
     iniciar: function(){
