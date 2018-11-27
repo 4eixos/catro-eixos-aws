@@ -20,6 +20,8 @@ const MiCW = require("./lib/cw/cw.js");
 
 const MiIotData = require("./lib/iot_data/iot_data.js");
 
+const MiDynamoDB = require("./lib/dynamodb/dynamodb.js");
+
 let AWS_INICIADO = false;
 
 let credenciales = false;
@@ -93,6 +95,11 @@ module.exports = {
 		iniciar_aws();
 		return new MiSQS(AWS);
 	},
+
+	DynamoDB: function(){
+            iniciar_aws();
+            return new MiDynamoDB(AWS);
+    },
 
     iniciar: function(){
 

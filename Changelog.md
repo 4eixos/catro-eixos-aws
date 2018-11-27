@@ -2,6 +2,7 @@
 
 ## [unreleased]
 
+- Agregado soporte para dynamodb
 - Agregado soporte para fifos en sqs
 
 ## v2.2.0 [06-11-2018]
