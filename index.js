@@ -22,6 +22,8 @@ const MiIotData = require("./lib/iot_data/iot_data.js");
 
 const MiDynamoDB = require("./lib/dynamodb/dynamodb.js");
 
+const MiCognito = require("./lib/cognito/cognito.js");
+
 let AWS_INICIADO = false;
 
 let credenciales = false;
@@ -99,6 +101,13 @@ module.exports = {
 	DynamoDB: function(){
             iniciar_aws();
             return new MiDynamoDB(AWS);
+    },
+
+    Cognito: function(){
+
+ //       iniciar_aws();
+
+        return new MiCognito(AWS);
     },
 
     iniciar: function(){
