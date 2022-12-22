@@ -15,7 +15,7 @@
   "dependencies": {
     "aws-sdk": "^2.77.0",
     "catro-eixos-js": "^3.4.3",
-    "jsonwebtoken": "^8.5.0",
+    "jsonwebtoken": "^9.0.0",
     "jwk-to-pem": "^2.0.1",
     "uuid": "^3.3.2"
   },
